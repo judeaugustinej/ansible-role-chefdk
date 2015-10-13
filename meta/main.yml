@@ -1,0 +1,27 @@
+---
+galaxy_info:
+  author: Jude Augustine Job
+  description: "Install Chef Development Kit on the workstation"
+  company: HCL Tech
+  license: MIT
+  
+  min_ansible_version: 1.9.0
+ 
+  platforms:
+  - name: Ubuntu
+    versions:
+    - saucy
+    - trusty
+  - name: Debian
+    versions:
+    - squeeze
+    - wheezy
+
+  categories:
+  - cloud
+  - monitoring
+  - packaging
+  - system 
+
+dependencies: []
+ 

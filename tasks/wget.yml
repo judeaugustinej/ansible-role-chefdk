@@ -1,0 +1,10 @@
+---
+- name: creating {{ chefdk_tmp }}
+  file: path={{ chefdk_tmp }} state=directory
+
+- name: Downloading using wget
+  command: chdir={{ chefdk_tmp }} wget {{ chefdk_url_ubuntu }} 
+  async: 10000000
+  poll: 5
+
+

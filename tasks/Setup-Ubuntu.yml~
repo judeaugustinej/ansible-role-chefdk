@@ -1,0 +1,17 @@
+---
+- name: Download chefdk
+  get_url: url={{ chefdk_url_ubuntu }} dest={{ chefdk_tmp_dir }} 
+  async: 20000
+  poll: 10
+  register: download
+  ignore_errors: yes
+
+- include: wget.yml
+  when: download | failed
+  
+#- name: Install chefdK
+#  apt: deb={{ chefdk_tmp_dir }}
+
+#- name: Verify the components for chefdk
+#   command: chef verify
+

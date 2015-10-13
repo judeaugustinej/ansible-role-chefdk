@@ -1,0 +1,6 @@
+---
+chefdk_version: "0.9.0"
+chefdk_tmp: "/opt/chef_downloads/"
+chefdk_tmp_dir: "{{ chefdk_tmp}}{{ chefdk_deb }}"
+
+
