@@ -3,7 +3,7 @@
   file: path={{ chefdk_tmp }} state=directory
 
 - name: Downloading using wget
-  command: chdir={{ chefdk_tmp }} wget {{ chefdk_url_ubuntu }} 
+  command: chdir={{ chefdk_tmp }} wget {{ chefdk_url_deb }} 
   async: 10000000
   poll: 5
 
