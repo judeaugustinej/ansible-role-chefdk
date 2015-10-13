@@ -1,4 +1,0 @@
----
-chefdk_deb : "chefdk_{{ chefdk_version }}-1_amd64.deb"
-chefdk_url_ubuntu : "https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/{{ chefdk_deb }}"
-
