@@ -1,10 +1,4 @@
 # ansible-role-chefdk
-=========
-
-[![Ansible-Galaxy][ansible-image]][ansible-link]
-
-[ansible-image]: https://img.shields.io/badge/ansible--galaxy-1.2.2-brightgreen.svg
-[ansible-link]: https://galaxy.ansible.com/list#/roles/5523
 
 Install the Chef Development Kit. 
 
