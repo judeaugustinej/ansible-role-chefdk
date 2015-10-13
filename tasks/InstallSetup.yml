@@ -5,6 +5,7 @@
   poll: 10
   register: download
   ignore_errors: yes
+  sudo: yes
 
 - include: wget.yml
   when: download | failed
