@@ -1,4 +1,7 @@
 ---
+- name: debug
+  debug: msg={{ chefdk_tmp_dir }}
+  
 - name: Download chefdk
   get_url: url="{{ chefdk_url_deb }}" dest={{ chefdk_tmp_dir }} force=yes
   async: 10000
