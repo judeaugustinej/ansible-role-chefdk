@@ -1,5 +1,5 @@
 # ansible-role-chefdk
-
+[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-jenkins.svg?branch=master)](https://travis-ci.org/judeaugustinej/ansible-role-chefdk/)
 Install the Chef Development Kit. 
 
 ## Requirements
