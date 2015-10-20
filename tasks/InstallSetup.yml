@@ -1,6 +1,6 @@
 ---
 - name: Download chefdk
-  get_url: url="{{ chefdk_url_deb }}" dest={{ chefdk_tmp }} force=yes
+  get_url: url="{{ chefdk_url_deb }}" dest={{ chefdk_tmp }} 
   async: 10000
   poll: 10
   register: download
