@@ -7,8 +7,8 @@
   ignore_errors: yes
   sudo: yes
 
-#- include: wget.yml
-#  when: download | failed
+- include: wget.yml
+  when: download | failed
   
 - name: Install chefdK
   apt: deb={{ chefdk_tmp_dir }}
